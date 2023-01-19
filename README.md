@@ -11,3 +11,7 @@
 ```
 pip list
 ```
+# How to use
+```
+from mn.perceptron import Perceptron
+```
