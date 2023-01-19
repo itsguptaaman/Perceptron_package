@@ -26,10 +26,11 @@ PROJECT_NAME = "Perceptron_package"
 
 setuptools.setup(
     name=f"{PKG_NAME}-{USER_NAME}",
-    version="0.0.2",
+    version="0.0.3",
     author=USER_NAME,
     author_email="itsamangupta420@gmail.com",
     description="A small package for perceptron",
+    long_description=long_description,
     long_description_content_type="text/markdown",
     url=f"https://github.com/{USER_NAME}/{PROJECT_NAME}",
     project_urls={
