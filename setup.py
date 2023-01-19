@@ -17,13 +17,16 @@ def get_requirements() -> List[str]:
     return requirement_list
 
 
-PKG_NAME = "mn_pkg"
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
+PKG_NAME = "perceptron"
 USER_NAME = "itsguptaaman"
-PROJECT_NAME = "perceptron-pkg"
+PROJECT_NAME = "Perceptron_package"
 
 setuptools.setup(
     name=f"{PKG_NAME}-{USER_NAME}",
-    version="0.0.1",
+    version="0.0.2",
     author=USER_NAME,
     author_email="itsamangupta420@gmail.com",
     description="A small package for perceptron",
